@@ -49,8 +49,8 @@ class MemeGenerator extends Component {
       template_id: this.state.id,
       text0: this.state.topText,
       text1: this.state.bottomText,
-      username: "ashutosh1409",
-      password: "Bhole@2020"
+      username: "<Your Username>",
+      password: "<Your Password>"
     };
     fetch(`https://api.imgflip.com/caption_image${objectToQueryParam(params)}`)
       .then((response) => response.json())
