@@ -125,3 +125,48 @@ a {
   font-weight: 500;
   font-size: 18px;
 }
+
+.down-btn {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ffffff;
+  color: white;
+  background-color: #6441a5;
+  width: 100%;
+}
+
+.down-btn:hover {
+  background-color: #eeeeee;
+  color: #6441a5;
+  transform: translate(1.2);
+}
+
+footer {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  background: #6441a5; /* fallback for old browsers */
+  background-color: -webkit-linear-gradient(
+    to right,
+    #2a0845,
+    #6441a5
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #2a0845,
+    #6441a5
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+footer p {
+  color: white;
+  text-align: center;
+  font-weight: 600;
+}
+
+footer > p {
+  font-family: VT323, monospace;
+  color: whitesmoke;
+  font-size: 20px;
+  margin-left: 60px;
+}

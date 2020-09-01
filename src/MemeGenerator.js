@@ -82,9 +82,14 @@ class MemeGenerator extends Component {
           <button onClick={this.handleMeme}>Down</button>
         </form>
         <div className="meme">
-          <a href={this.state.link} target="_blank" download>
+          <button
+            className="down-btn"
+            href={this.state.link}
+            target="_blank"
+            download
+          >
             Meme
-          </a>
+          </button>
           <img src={this.state.randomImg} alt="" />
           <h2 className="top">{this.state.topText}</h2>
           <h2 className="bottom">{this.state.bottomText}</h2>
